@@ -6,10 +6,6 @@ Page({
    */
   data: {
     
-    array: [{
-      mode: 'scaleToFill'
-    }],
-    src: '../Images/1.jpg'
 
   },
 
