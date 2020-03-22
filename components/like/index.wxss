@@ -1,6 +1,36 @@
 /* components/like/index.wxss */
 .container
 {
-  width: 32px;
-  height: 28px;
+  /*由于点赞数目是随着客户端点赞人数变化而变化的，因此不宜用固定的宽幅width:80rpx等方式
+  来显示。而应该要用一种动态宽度来展示，而inline-flex就是应用于这种场景 
+  但是这种方式的有一些缺陷，比如从9变成10，这页面会发生跳动刷新。
+  */
+  /* display:flex; */
+  display: inline-flex;
+
+  flex-direction: row;
+  padding: 10rpx;/*防止字体往上偏移10prx之后被遮挡住*/
+}
+
+/*这种写法最大的好处是可以避免给容器下的每一个子元素单独起一个名字；
+最大的问题是这种样式无法被复用，只能指定给容器下的所有image使用*/
+.container image
+{
+   width: 32rpx;
+  height: 28rpx;
+
+}
+
+.container text
+{
+  /* font-family: "PingFangSC-Thin"; */
+  font-size: 24rpx;
+  color: #bbbbbb;
+  position: relative;/*最常用的设置位置偏移的手段*/
+  bottom: 10rpx;/*设置完postion为relative之后，利用bottom属性让字体往上偏移10rpx*/
+  left: 6rpx;/*使字体往右偏移6rpx*/
+
+  /* 文字一般默认都会有一个上下空白的间距，我们应该要消除掉这些无意义的空白间距以减小
+  整个组件的大小。line-height就是用来消除文字上下间距 2020-3-22 20:37:27*/
+  line-height:24rpx;/*与font-size大小持平，这样就达到消除上下间距的目的*/
 }
