@@ -8,7 +8,8 @@
     "navigationBarTitleText": "群星璀璨俱乐部",
     "backgroundColor": "#eeeeee",
     "backgroundTextStyle": "light",
-    "navigationStyle":"default",
-    "enablePullDownRefresh":false
-  }
+    "navigationStyle": "default",
+    "enablePullDownRefresh": false
+  },
+  "sitemapLocation": "sitemap28.json"
 }

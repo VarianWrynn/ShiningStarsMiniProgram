@@ -20,7 +20,12 @@ Page({
    * Lifecycle function--Called when page is initially rendered
    */
   onReady: function () {
-
+    wx.request({
+      url: 'http://bl.7yue.pro/v1/classic/latest',
+      header:{
+        appKey:"KOLDaSADSDLWWbF1"
+      }
+    })
   },
 
   /**
