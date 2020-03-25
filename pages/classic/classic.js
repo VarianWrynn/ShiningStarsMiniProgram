@@ -5,8 +5,7 @@ Page({
    * Page initial data
    */
   data: {
-
-
+    name: "Lee"
   },
 
   /**
@@ -20,12 +19,14 @@ Page({
    * Lifecycle function--Called when page is initially rendered
    */
   onReady: function() {
+    console.log(this.data.name) //输出Lee
     wx.request({
-      url: 'http://bl.7yue.pro/v1/classic/latest',
+      url: 'https://localhost:5001/weatherforecast',
       header: {
         appKey: "KOLDaSADSDLWWbF1"
       },
-      success: function(res) {
+      success: (res) => {
+        console.log(this.data.name) //报错，this未定义
         console.log(res);
       }
     })
