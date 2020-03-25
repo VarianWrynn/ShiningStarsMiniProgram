@@ -22,11 +22,8 @@ Page({
     console.log(this.data.name) //输出Lee
     wx.request({
       url: 'https://localhost:5001/weatherforecast',
-      header: {
-        appKey: "KOLDaSADSDLWWbF1"
-      },
       success: (res) => {
-        console.log(this.data.name) //报错，this未定义
+        console.log(this.data.name) 
         console.log(res);
       }
     })
