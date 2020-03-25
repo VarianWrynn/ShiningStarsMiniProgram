@@ -23,6 +23,10 @@ namespace SSMiniProgram.Controllers
             _logger = logger;
         }
 
+        /// <summary>
+        /// 那段时光已悄然离开，而我的心亦不复存在
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
