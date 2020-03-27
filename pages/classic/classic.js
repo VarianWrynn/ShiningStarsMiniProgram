@@ -1,3 +1,5 @@
+import {HTTP} from '../../util/http.js'
+let http = new HTTP();
 // pages/classic/classic.js
 Page({
 
@@ -12,21 +14,26 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function(options) {
-
+    http.request({
+      url:'1weatherforecast',
+      success:((res)=>{
+        console.log(res);
+      })
+    })
   },
 
   /**
    * Lifecycle function--Called when page is initially rendered
    */
   onReady: function() {
-    console.log(this.data.name) //输出Lee
-    wx.request({
-      url: 'https://localhost:5001/weatherforecast',
-      success: (res) => {
-        console.log(this.data.name) 
-        console.log(res);
-      }
-    })
+    // console.log(this.data.name) //输出Lee
+    // wx.request({
+    //   url: 'https://localhost:5001/weatherforecast',
+    //   success: (res) => {
+    //     console.log(this.data.name) 
+    //     console.log(res);
+    //   }
+    // })
   },
 
   /**
