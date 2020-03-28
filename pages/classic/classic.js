@@ -15,7 +15,7 @@ Page({
    */
   onLoad: function(options) {
     http.request({
-      url:'1weatherforecast',
+      url:'weatherforecast',
       success:((res)=>{
         console.log(res);
       })
