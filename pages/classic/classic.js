@@ -1,5 +1,6 @@
-import {HTTP} from '../../util/http.js'
-let http = new HTTP();
+import {ClassModel} from '../../model/classic.js'
+let classModel = new ClassModel();
+
 // pages/classic/classic.js
 Page({
 
@@ -14,12 +15,9 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function(options) {
-    http.request({
-      url:'weatherforecast',
-      success:((res)=>{
-        console.log(res);
-      })
-    })
+    classModel.getLatest((res)=>{
+      console.log(res);
+    });
   },
 
   /**
