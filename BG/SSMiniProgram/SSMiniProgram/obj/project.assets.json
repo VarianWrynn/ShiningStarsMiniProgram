@@ -127,7 +127,8 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\leewo\\.nuget\\packages\\": {}
+    "C:\\Users\\leewo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -138,6 +139,9 @@
       "packagesPath": "C:\\Users\\leewo\\.nuget\\packages\\",
       "outputPath": "D:\\Lee\\SSMiniProgram\\BG\\SSMiniProgram\\SSMiniProgram\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
         "C:\\Users\\leewo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -147,6 +151,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.baimeihome.com/api/v2": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
