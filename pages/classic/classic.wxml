@@ -1,1 +1,1 @@
-<tmc-like/>
+<tmc-like like="{{classicData[0].temperatureC}}" count="{{classicData[0].temperatureF}}" />
