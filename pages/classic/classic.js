@@ -1,5 +1,5 @@
-import {ClassModel} from '../../model/classic.js'
-let classModel = new ClassModel();
+import {ClassicModel} from '../../models/classic.js'
+let classicModel = new ClassicModel();
 
 // pages/classic/classic.js
 Page({
@@ -15,8 +15,11 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function(options) {
-    classModel.getLatest((res)=>{
-      console.log(res);
+    classicModel.getLatest((res)=>{
+      //console.log(res[0].temperatureC);
+      this.setData({      //通过setData做【数据绑定】
+        classicData:res 
+      })
     });
   },
 
