@@ -8,7 +8,7 @@ Page({
    * Page initial data
    */
   data: {
-    name: "Lee"
+    classicData:null
   },
 
   /**
