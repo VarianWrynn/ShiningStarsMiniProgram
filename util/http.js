@@ -3,7 +3,7 @@ import {
 } from '../config.js'
 
 const tips = {
-  1: '抱歉，出现了一个错误',
+  1: '网络出现错误，请稍后再刷新',
   1005: 'appkey无效',
   3000: '期刊不存在'
 }
@@ -32,7 +32,7 @@ class HTTP {
         }
       },
       fail: (err) => {
-       this.error_code(1);
+        this._show_error(1);
       }
     })
   }
