@@ -4,7 +4,8 @@ Component({
    * Component properties
    */
   properties: {
-
+    imgs:String,
+    content:String
   },
 
   /**
