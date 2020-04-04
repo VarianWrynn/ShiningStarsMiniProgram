@@ -21,14 +21,14 @@ namespace SSMiniProgram.Controllers
         {
             return new Lates
             {
-                content = "人生不能像做菜，把所有的料准备好才下锅",
+                content = "浩瀚群星，璀璨如你",
                 fav_nums = 100,
                 id = 1,
-                image = "http://127.0.0.1:5000/images/movie_7.png",
+                image = "http://tmclee.com/Lee/images/img_bg_1.jpg",
                 index = 7,
                 like_status = 0,
-                pubdate = "2018-06-22",
-                title = "李安<<饮食男女>>",
+                pubdate = "2020-02-22",
+                title = "群星璀璨",
                 type = 100
             };
 

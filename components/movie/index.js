@@ -4,7 +4,7 @@ Component({
    * Component properties
    */
   properties: {
-    imgs:String,
+    image:String,
     content:String
   },
 
@@ -12,7 +12,6 @@ Component({
    * Component initial data
    */
   data: {
-
   },
 
   /**

@@ -1,5 +1,8 @@
-import {ClassicModel} from '../../models/classic.js'
+import {ClassicModel} from '../../models/classic.js';
+import { LikeModel } from '../../models/like.js';
+
 let classicModel = new ClassicModel();
+let likeModel = new LikeModel();
 
 // pages/classic/classic.js
 Page({
@@ -21,6 +24,12 @@ Page({
         classicData:res 
       })
     });
+  },
+
+  onLike:function(event){
+    //console.log(event);
+    let behavior =event.detail.behavior;
+    likeModel.like(behavior,this.data.classicData.id,this.data.classicData.type);
   },
 
   /**

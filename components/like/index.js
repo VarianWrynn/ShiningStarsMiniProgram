@@ -1,4 +1,4 @@
-// components/like/index.js
+  // components/like/index.js
 Component({
   /**
    * Component properties
@@ -43,6 +43,14 @@ Component({
         count:count,
         like:!like //点击由于喜欢变成不喜欢，或者不喜欢变成喜欢
       })
+
+      //自定义事件
+      let behavior  =this.properties.like?'like':'cancel';
+      //激活小程序自定义事件，参数分别是1-自定义事件的名称; 2- 第二个是js对象，通常传递一些自定义的属性；
+      //3- 第三个对象无法自定义，必须是官方指定的 bubbles，composed,capturePhase
+      this.triggerEvent('like',{
+        behavior:behavior
+      },{})
     }
   }
 })
