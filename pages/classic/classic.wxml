@@ -1,2 +1,2 @@
-<tmc-like like="{{classicData[0].temperatureC}}" count="{{classicData[0].temperatureF}}" />
-<tmc-movie img="{{classicData.image}}" content="{{classicData.content}}" />
+<tmc-like bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}" />
+<tmc-movie image="{{classicData.image}}" content="{{classicData.content}}" />

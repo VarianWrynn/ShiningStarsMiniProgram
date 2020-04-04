@@ -25,7 +25,11 @@ class HTTP {
       success: (res) => {
         let code = res.statusCode.toString();
         if (code.startsWith('2')) { //startsWith & endsWith都是ES6的新特性,注意是start[s]With，有个[s],坑了一晚上！
-          params.success(res.data); //把res对象返回给调用方
+          //params.success(res.data); //把res对象返回给调用方
+
+          /*以下这种写法是先判断param.sucess是否为空，如果不为空再给回调函数复制；原因是有的地方继承
+          并调用了http.js方法，但是不需要传递回调函数进来，因此需要对这种情况进行判断 2020年4月4日*/
+          params.success && params.success(res.data);
         } else {
           let error_code = res.data.error_code;
           this._show_error(error_code);
