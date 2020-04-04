@@ -1,0 +1,47 @@
+.container{
+  height: 60rpx;
+  display: inline-flex;
+  flex-direction: row;
+}
+
+/*左边三个元素,包含竖线，No 07 |*/
+.index-container{ 
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;/*保证了三个元素按照地线对齐*/
+}
+
+.plain{
+  font-size: 32rpx;
+}
+
+/*07*/
+.index{
+  font-size: 60rpx;
+  line-height: 60rpx;/*限制07这个数字的总体行高*/
+  font-weight: 800;/*加粗*/
+  margin-right: 14rpx;/*调整数字和竖线之间的间距距离*/
+}
+
+/*竖线,这里是用样式实现竖线，而不是文字实现，如果用文字实现，baseline属性无法控制对齐*/
+.line{
+  height: 44rpx;
+  margin-right: 14rpx;
+  border-left: 1px solid black;
+}
+
+.date-container{
+  height: 60rpx;
+  display: flex;
+  flex-direction: column;/*这两个元素是上下布局*/
+  margin-top: 5rpx;
+}
+
+.month{
+  font-size: 24rpx;
+  line-height: 24rpx;
+}
+
+.year{
+  font-size: 20rpx;
+}

@@ -16,9 +16,8 @@
 最大的问题是这种样式无法被复用，只能指定给容器下的所有image使用*/
 .container image
 {
-   width: 32rpx;
+  width: 32rpx;
   height: 28rpx;
-
 }
 
 .container text
@@ -27,8 +26,8 @@
   font-size: 24rpx;
   color: #bbbbbb;
   position: relative;/*最常用的设置位置偏移的手段*/
-  bottom: 10rpx;/*设置完postion为relative之后，利用bottom属性让字体往上偏移10rpx*/
-  left: 6rpx;/*使字体往右偏移6rpx*/
+  bottom: 3rpx;/*设置完postion为relative之后，利用bottom属性让字体往上偏移10rpx*/
+  left: -4rpx;/*使字体往右偏移6rpx*/
 
   /* 文字一般默认都会有一个上下空白的间距，我们应该要消除掉这些无意义的空白间距以减小
   整个组件的大小。line-height就是用来消除文字上下间距 2020-3-22 20:37:27*/

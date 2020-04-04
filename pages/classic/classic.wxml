@@ -1,2 +1,5 @@
-<tmc-like bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}" />
+<view class="header">
+  <tmc-period class="period" index="{{classicData.index}}" />
+  <tmc-like class="like" bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}" />
+</view>
 <tmc-movie image="{{classicData.image}}" content="{{classicData.content}}" />
