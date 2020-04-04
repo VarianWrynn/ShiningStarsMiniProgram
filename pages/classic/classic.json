@@ -1,6 +1,7 @@
 {
   "usingComponents": {
     "tmc-like":"/components/like/index",
-    "tmc-movie":"/components/movie/index"
+    "tmc-movie":"/components/movie/index",
+    "tmc-period": "/components/period/index"
   }
 }
