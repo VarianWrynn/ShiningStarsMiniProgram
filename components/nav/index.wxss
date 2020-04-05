@@ -1,0 +1,20 @@
+.container{
+  width: 600rpx; /*设置整个矩形高度*/
+  height: 80rpx;
+  background-color: #f7f7f7;
+  opacity: 0.30;  filter: alpha(opacity=30);
+  border-radius: 2px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;/*两端对齐*/
+  align-items: center;
+}
+
+.icon{
+  height: 80rpx;
+  width: 80rpx;
+}
+
+.title{
+  font-size: 28rpx;
+}
