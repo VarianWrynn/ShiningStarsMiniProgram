@@ -11,7 +11,9 @@ Page({
    * Page initial data
    */
   data: {
-    classicData:null
+    classicData:null,
+    latest:true,
+    first:false
   },
 
   /**
@@ -30,6 +32,14 @@ Page({
     //console.log(event);
     let behavior =event.detail.behavior;
     likeModel.like(behavior,this.data.classicData.id,this.data.classicData.type);
+  },
+
+  onNext:function(){
+
+  },
+
+  onPrevious:function(){
+
   },
 
   /**
