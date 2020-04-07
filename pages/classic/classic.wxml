@@ -3,6 +3,6 @@
     <tmc-period class="period" index="{{classicData.index}}" />
     <tmc-like class="like" bind:like="onLike" like="{{classicData.like_status}}" count="{{classicData.fav_nums}}" />
   </view>
-  <tmc-movie image="{{classicData.image}}" content="{{classicData.content}}" />
+  <tmc-movie img="{{classicData.image}}" content="{{classicData.content}}" />
   <tmc-nav bind:left="onNext" bind:right="onPrevious" class="nav" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}"  />
 </view>
