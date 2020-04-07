@@ -8,7 +8,7 @@ Component({
       type:String,
       observer:function(newVal,oldVal,changePath){
         let val = newVal <10?'0'+newVal:newVal;
-        console.log(val);
+        //console.log(val);
         this.setData({
           _index:val
         });

@@ -30,7 +30,7 @@ Component({
 
     },
 
-    onLeft: function(event) { //监听下页 事件
+    onRight: function(event) { //监听下页 事件
       if(!this.properties.first) { //如果当前不是最老的一期，才会触发 右边 按钮事件 
         this.triggerEvent('right', {}, {})
       }

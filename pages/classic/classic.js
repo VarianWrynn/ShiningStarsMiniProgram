@@ -39,7 +39,15 @@ Page({
   },
 
   onPrevious:function(){
-
+    //console.log(this.data.classicData);
+    let index = this.data.classicData.index;
+   
+    classicModel.getPrevious(index,(res)=>{
+      console.log(res);
+      this.setData({
+        classicData:res
+      })
+    })
   },
 
   /**
