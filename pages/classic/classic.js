@@ -1,5 +1,9 @@
-import {ClassicModel} from '../../models/classic.js';
-import { LikeModel } from '../../models/like.js';
+import {
+  ClassicModel
+} from '../../models/classic.js';
+import {
+  LikeModel
+} from '../../models/like.js';
 
 let classicModel = new ClassicModel();
 let likeModel = new LikeModel();
@@ -11,44 +15,50 @@ Page({
    * Page initial data
    */
   data: {
-    classicData:null,
-    latest:true,
-    first:false
+    classicData: null,
+    latest: true,
+    first: false
   },
 
   /**
    * Lifecycle function--Called when page load
    */
   onLoad: function(options) {
-    classicModel.getLatest((res)=>{
+    classicModel.getLatest((res) => {
       //console.log(res[0].temperatureC);
-      this.setData({      //通过setData做【数据绑定】
-        classicData:res 
+      this.setData({ //通过setData做【数据绑定】
+        classicData: res
       })
     });
   },
 
-  onLike:function(event){
+  onLike: function(event) {
     //console.log(event);
-    let behavior =event.detail.behavior;
-    likeModel.like(behavior,this.data.classicData.id,this.data.classicData.type);
+    let behavior = event.detail.behavior;
+    likeModel.like(behavior, this.data.classicData.id, this.data.classicData.type);
   },
 
-  onNext:function(){
-
+  onPrevious: function() {
+    this._updateClassic('previous');
   },
 
-  onPrevious:function(){
-    //console.log(this.data.classicData);
+  onNext: function() {
+    this._updateClassic('next');
+  },
+  _updateClassic: function(nextOrPrevious) {
     let index = this.data.classicData.index;
-   
-    classicModel.getPrevious(index,(res)=>{
+    classicModel.getClassic(index, nextOrPrevious, (res) => {
       console.log(res);
       this.setData({
-        classicData:res
+        classicData: res,
+
+        //更新latest和first属性
+        latest: classicModel.isLatest(res.index),
+        first: classicModel.isFirst(res.index)
       })
     })
   },
+
 
   /**
    * Lifecycle function--Called when page is initially rendered

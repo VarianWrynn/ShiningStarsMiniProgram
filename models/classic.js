@@ -7,19 +7,45 @@ class ClassicModel extends HTTP{
       url: 'Classic',
       success: (res) => {
         sCallback(res)//这里把传递进来的函数再（带上res）传递回去,所以叫【回调函数】
+
+        this._setLatestIndex(res.index);
       }
     })
   }
 
-  getPrevious(index,sCallback){
+  getClassic(index,nextOrPrevious,sCallback){
     this.request({
-      url:'Classic?='+index,
+      url: 'Classic/' + index + '/' + nextOrPrevious,
+      // data: {
+      //   index: index
+      // },
       success:(res=>{
         sCallback(res);
+      
       })
     })
   }
 
+
+  isFirst(index){
+    return index ==1? true:false
+  }
+
+  isLatest(index){
+    let latestIndex = this._getLatestIndex();
+
+    //判断传递进来的index是否等于最新的index,如果是，这表示当前是最新的一期，因此向左的按钮要disabled
+    return latestIndex ==index ? true:false;
+  }
+
+  _setLatestIndex(index){
+    wx.setStorageSync('latest', index);//key-value
+  }
+
+  _getLatestIndex(){
+    let index =  wx.getStorageSync('latest');
+    return index;
+  }
 }
 
 export {ClassicModel}
