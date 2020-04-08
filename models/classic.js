@@ -9,21 +9,31 @@ class ClassicModel extends HTTP{
         sCallback(res)//这里把传递进来的函数再（带上res）传递回去,所以叫【回调函数】
 
         this._setLatestIndex(res.index);
+
+        let key= this._getKey(res.index);//每次请求最新一期的数据，则都往缓存里面塞
+        wx.setStorageSync(key, res);
       }
     })
   }
 
   getClassic(index,nextOrPrevious,sCallback){
+    //客户端调用根本不用关心是从服务器获取的还是从缓存中获取的，因为这些细节被封装在这个方法中了。
+    let key = nextOrPrevious=="next"? this._getKey(index+1):this._getKey(index -1); 
+    let classic =wx.getStorageSync(key);//从缓存中寻找
+    if(!classic){ //如果缓存中没找到则向服务器发送请求
     this.request({
-      url: 'Classic/' + index + '/' + nextOrPrevious,
-      // data: {
-      //   index: index
-      // },
+      // url: 'Classic/' + index + '/' + nextOrPrevious,
+      url: `Classic/${index}/${nextOrPrevious}`,
       success:(res=>{
+        wx.setStorageSync(this._getKey(res.index),res);
         sCallback(res);
       
       })
     })
+    }
+    else{
+      sCallback(classic);
+    }
   }
 
 
@@ -45,6 +55,11 @@ class ClassicModel extends HTTP{
   _getLatestIndex(){
     let index =  wx.getStorageSync('latest');
     return index;
+  }
+
+  _getKey(index){
+    let key = 'Classic-'+index;
+    return key;
   }
 }
 
