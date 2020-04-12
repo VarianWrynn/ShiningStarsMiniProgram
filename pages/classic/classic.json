@@ -2,6 +2,8 @@
   "usingComponents": {
     "tmc-like":"/components/like/index",
     "tmc-movie":"/components/classic/movie/index",
+    "tmc-music": "/components/classic/music/index",
+    "tmc-essay": "/components/classic/essay/index",
     "tmc-period": "/components/period/index",
     "tmc-nav": "/components/nav/index"
   }

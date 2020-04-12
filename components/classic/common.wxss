@@ -1,0 +1,29 @@
+/*把几个组件需要用到的共同样式放在这里，然后组件那边使用import关键字导入*/
+
+.classic-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.classic-img {
+  width:800rpx; /*数值与单位之间不能有空格，否则设置无效*/
+  height: 1199rpx;
+}
+
+.tag{
+  width: 46rpx;
+  height: 142rpx;
+  position: relative;
+  right: 310prx;
+  bottom: 58rpx;
+}
+
+.content{
+  font-size: 55rpx;
+  font-family: "youyuan";
+  max-width: 550rpx; /*设置最大宽度，这样子文字过长会自动换行，不长会自动居中*/
+  position: relative;
+  bottom: 600px;
+  color: white;
+}
