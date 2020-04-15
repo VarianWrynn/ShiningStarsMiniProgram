@@ -20,6 +20,9 @@ Component({
    * Component methods
    */
   methods: {
-
+    onPlay:function(event){
+      //首先切换图片为pause
+      
+    }
   }
 })
