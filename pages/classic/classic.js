@@ -41,7 +41,13 @@ Page({
     //console.log(event);
     let behavior = event.detail.behavior;
     //likeModel.like(behavior, this.data.classicData.id, this.data.classicData.type);
-    likeModel.like(behavior, this.data.classicData.like_id);
+    var sData = {
+      //Id: this.data.classicData.like_id,
+      Jornal_Id: this.data.classicData.index,
+      Member_Id: 1
+    };
+    //likeModel.like(behavior, this.data.classicData.like_id);
+    likeModel.like(behavior, sData);
   },
 
   onPrevious: function() {
@@ -59,7 +65,9 @@ Page({
       this._getLikeStatus(res.id,res.type);
       this.setData({
         classicData: res,
-
+        
+        likeCount: res.fav_nums,
+        likeStatus: res.like_status,
         //更新latest和first属性
         latest: classicModel.isLatest(res.index),
         first: classicModel.isFirst(res.index)
