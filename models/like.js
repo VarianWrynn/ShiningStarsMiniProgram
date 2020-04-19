@@ -2,15 +2,13 @@ import {HTTP} from '../util/http.js'
 
 class LikeModel extends HTTP{
 
-  like(behavior, likeid){
+  like(behavior, sData){
     //console.log(behavior + artID + category);
     let url = behavior=='like'?'like':'like/cancel';
     this.request({
       url:url,
       method:'POST',
-      data:{
-        like_id:likeid
-      }
+      data: sData
     })
   }
 

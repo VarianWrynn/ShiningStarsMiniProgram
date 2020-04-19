@@ -26,8 +26,7 @@ class ClassicModel extends HTTP{
       url: `Classic/${index}/${nextOrPrevious}`,
       success:(res=>{
         wx.setStorageSync(this._getKey(res.index),res);
-        sCallback(res);
-      
+        sCallback(res);     
       })
     })
     }

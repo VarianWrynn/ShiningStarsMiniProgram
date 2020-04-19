@@ -18,8 +18,9 @@
   bottom: 270rpx;
 }
 .tag{
-  width: 44prx;
-  height: 128rpx;
+  /*width:44prx; 单位是rpx，不是【prx】又坑了我10多分钟*/
+  width: 44rpx;
+  height:128rpx;
   position: relative;
   bottom: 160rpx;
   right: 310rpx;
