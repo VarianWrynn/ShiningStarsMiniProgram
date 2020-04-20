@@ -16,6 +16,18 @@ Component({
     src: String
   },
 
+  lifetimes:{
+    attached: function () {
+      // 在组件实例进入页面节点树时执行
+    },
+    detached: function () {
+      // 在组件实例被从页面节点树移除时执行
+
+      /*设置当前页面消失的时候停止播放音乐,但是由于父页面使用是hidden属性来隐藏当前组件，因此是不会触发detached函数，但是如果设置为wx:if是可以触发该函数*/
+      mMgr.stop()
+    },
+  },
+
   /**
    * Component initial data
    */
