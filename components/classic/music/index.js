@@ -16,15 +16,17 @@ Component({
     src: String
   },
 
-  lifetimes:{
+  lifetimes: {
     attached: function () {
       // 在组件实例进入页面节点树时执行
+      // this.method._recoverStatus();这种调用方式会报错
+      this._recoverStatus();
     },
     detached: function () {
       // 在组件实例被从页面节点树移除时执行
 
       /*设置当前页面消失的时候停止播放音乐,但是由于父页面使用是hidden属性来隐藏当前组件，因此是不会触发detached函数，但是如果设置为wx:if是可以触发该函数*/
-      mMgr.stop()
+      //mMgr.stop()
     },
   },
 
@@ -41,8 +43,7 @@ Component({
    * Component methods
    */
   methods: {
-    onPlay: function(event) {
-
+    onPlay: function (event) {
       if (!this.data.playing) {
         //首先切换图片为pause
         this.setData({
@@ -56,6 +57,19 @@ Component({
         });
         mMgr.pause();
       }
+    }
+  },
+  _recoverStatus: function () {
+    if(mMgr.pause){ //如果当前没有背景音乐
+      this.setData({
+        playing:false
+      })
+      return; //设置完则直接返回不执行后续代码，否则可能会执行后续的代码
+    }
+    if(mMgr.src == this.properties.src){ //当前播放的音乐就是Music组件所展示的音乐
+      this.setData({
+        playing:true
+      })
     }
   }
 })
