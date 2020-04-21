@@ -24,6 +24,7 @@ Component({
 
       console.log("exe attached");
       this._recoverStatus();
+      this._monitorSwitch();
     },
     detached: function (event) {
       // 在组件实例被从页面节点树移除时执行
@@ -48,17 +49,15 @@ Component({
    */
   methods: {
     onPlay: function (event) {
-      //console.log("exeting onPlay");
       if (!this.data.playing) {
         //首先切换图片为pause
-        //console.log("-- exeting onPlay set playing is true;");
         this.setData({
           playing: true
         });
         mMgr.title = "Lee's playing"; //必填
-        mMgr.src = "https://www.tmclee.com/Lee/lee.m4a";
+        //mMgr.src = "https://www.tmclee.com/Lee/lee.m4a";  
+        mMgr.src =  this.properties.src;
       } else {
-        //console.log("-- exeting onPlay set playing is flase and pause music;");
         this.setData({
           playing: false
         });
@@ -68,11 +67,12 @@ Component({
 
     _recoverStatus: function () {
       console.log("exe _recoverStatus")
-      if(mMgr.pause){ //如果当前没有背景音乐
+
+      if(mMgr.paused){ //如果当前没有背景音乐,注意 不是 mMgr.pause,这个是一个方法
         this.setData({
           playing:false
         })
-       // return; //设置完则直接返回不执行后续代码，否则可能会执行后续的代码
+        return; //设置完则直接返回不执行后续代码，否则可能会执行后续的代码
       }
       console.log("mMgr.src= "+mMgr.src)
       console.log("properties.src= "+this.properties.src)
@@ -82,6 +82,25 @@ Component({
           playing:true
         })
       }
+    },
+
+    _monitorSwitch:function(){
+      /* onPlay函数执行一个回调函数，所以我们把一个匿名函数当做参数传递进去 */
+      mMgr.onPlay(()=>{
+        this._recoverStatus();
+      });
+
+      mMgr.onPause(()=>{
+        this._recoverStatus();
+      });
+
+      mMgr.onStop(()=>{
+        this._recoverStatus();
+      });
+
+      mMgr.onEnded(()=>{ //音乐自然播放完时的事件
+        this._recoverStatus();
+      })
     }
 
   }
