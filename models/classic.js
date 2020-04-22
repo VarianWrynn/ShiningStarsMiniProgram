@@ -1,4 +1,8 @@
-import {HTTP} from '../util/http.js'
+import {
+  HTTP
+} 
+from '../util/http.js'
+
 class ClassicModel extends HTTP{
 
   getLatest(sCallback) {//sCallback回调函数，客户端调用的时候当做一个参数传递进来
