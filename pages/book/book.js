@@ -1,3 +1,10 @@
+import {
+  BookModel
+} from '../../models/book.js';
+
+let bookModel = new BookModel();
+
+
 // pages/book/book.js
 Page({
 
@@ -12,7 +19,10 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-
+    const hotList = bookModel.getHotList();
+    hotList.then(
+      res=>console.log(res)
+    )
   },
 
   /**
