@@ -1,7 +1,6 @@
-import {
-  HTTP
-} 
-from '../util/http.js'
+import {HTTP}  from '../util/http.js'
+
+import {config}  from '../config.js';
 
 class ClassicModel extends HTTP{
 
@@ -10,6 +9,7 @@ class ClassicModel extends HTTP{
     this.request({ 
       url: 'Classic',
       success: (res) => {
+        //res.image = config.api_base_url+ res.image;
         sCallback(res)//这里把传递进来的函数再（带上res）传递回去,所以叫【回调函数】
 
         this._setLatestIndex(res.index);
