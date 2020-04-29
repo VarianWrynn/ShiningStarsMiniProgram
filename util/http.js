@@ -29,6 +29,7 @@ class HTTP {
 
           /*以下这种写法是先判断param.sucess是否为空，如果不为空再给回调函数复制；原因是有的地方继承
           并调用了http.js方法，但是不需要传递回调函数进来，因此需要对这种情况进行判断 2020年4月4日*/
+          res.data.image && (res.data.image =  config.api_base_url +res.data.image)
           params.success && params.success(res.data);
         } else {
           let error_code = res.data.error_code;
