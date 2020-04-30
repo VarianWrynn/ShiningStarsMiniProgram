@@ -6,7 +6,7 @@
   </view>
   <tmc-movie hidden="{{classicData.type!=1}}" img="{{classicData.image}}" content="{{classicData.content}}" />
   <!-- <tmc-music hidden="{{classicData.type!=2}}" img="{{classicData.image}}" content="{{classicData.content}}" /> -->
-  <tmc-music wx:if="{{classicData.type==2}}" src="https://www.tmclee.com/Lee/lee.m4a" img="{{classicData.image}}" content="{{classicData.content}}" />
+  <tmc-music wx:if="{{classicData.type==2}}" src="https://localhost:5001/media/Lee.m4a" img="{{classicData.image}}" content="{{classicData.content}}" />
   <tmc-essay hidden="{{classicData.type!=3}}" img="{{classicData.image}}" content="{{classicData.content}}" />
   <tmc-nav bind:left="onNext" bind:right="onPrevious" class="nav" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}" />
 </view>
