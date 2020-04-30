@@ -19,10 +19,18 @@ Page({
    * Lifecycle function--Called when page load
    */
   onLoad: function (options) {
-    const hotList = bookModel.getHotList();
-    hotList.then(
-      res=>console.log(res)
-    )
+    bookModel.getHotList()
+    .then(res=>{
+      console.log(res);
+      return bookModel.getMyBookCount();//這裡是解決問題的关键，这里应该把第二次函数调用的Promise返回去
+    })
+    .then(res=>{ //在最外层接收   bookModel.getMyBookCount() 返回的Promise
+      console.log(res);
+      return bookModel.getMyBookCount();
+    })
+    .then(res=>{
+      console.log(res);
+    })
   },
 
   /**
