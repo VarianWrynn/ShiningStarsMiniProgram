@@ -1,1 +1,3 @@
-<tmc-book book="{{books[0]}}" />
+<block wx:for="{{books}}">
+  <tmc-book book="{{item}}" />
+</block>
