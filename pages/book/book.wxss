@@ -40,7 +40,7 @@
 }
 
 .header{
-  position: fixed; 
+  position: fixed; /*固定顶部的 搜索框 使得无论怎么上下滚动图书，都不会使得搜索框随之滚动*/
   background-color: #ffffff;
   height:100rpx;
   width:100%;
@@ -51,7 +51,7 @@
   align-items: center;
   justify-content: center;
   box-shadow:0 0 3px 0 #e3e3e3; 
-  z-index: 99;
+  z-index: 99;/*设置搜索框为最顶部，否则滚动的时候会被书籍图片所覆盖*/
 }
 
 .head-img{
@@ -72,5 +72,10 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;/*自动换行*/
+  justify-content: space-between;
   padding: 0 90rpx 0 90rpx;
+}
+
+.books-container tmc-book{
+  margin-bottom: 10rpx;/*对每一本图书设计一个bottom间距*/
 }
