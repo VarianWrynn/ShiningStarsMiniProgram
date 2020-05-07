@@ -23,6 +23,9 @@ Component({
       wx.navigateTo({
         url: `/pages/book-detail/book-detail?bid=${bid}`
       })
+      // 缺点：降低了组件的通用性
+      // 有点:非常方便
+      // 取舍：如果当前组件是服务于当前项目（项目组件）这允许在组件这样做
     }
   }
 })
