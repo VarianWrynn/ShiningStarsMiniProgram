@@ -1,11 +1,19 @@
-// pages/book-detail/book-detail.js
+import{
+  BookModel
+}from '../../models/book.js'
+
+const bookModel = new BookModel();
+
 Page({
 
   /**
    * Page initial data
    */
   data: {
-
+    comments:[],
+    book:null,
+    likeStatus:false,
+    likeCount:0
   },
 
   /**
@@ -13,7 +21,29 @@ Page({
    */
   onLoad: function (options) {
     const bid = options.bid;
-    console.log(bid);
+    const detail = bookModel.getDetail(bid);
+    const comments = bookModel.getComments(bid);
+    const likeStatus = bookModel.getLikeStatus(bid);
+
+    detail.then(res=>{
+      this.setData({
+        book:res
+      })
+    })
+
+    comments.then(res=>{
+      this.setData({
+        comments:res
+      })
+    })
+
+    likeStatus.then(res=>{
+     this.setData({
+      likeStatus:res.likeStatus,
+      likeCount:res.fav_nums
+     })
+    })
+
   },
 
   /**
