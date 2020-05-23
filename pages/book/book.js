@@ -21,7 +21,7 @@ Page({
   onLoad: function (options) {
     bookModel.getHotList()
       .then(res => {
-        console.log(res)
+       // console.log(res)
        this.setData({
          books:res
        })
