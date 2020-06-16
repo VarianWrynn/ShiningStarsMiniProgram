@@ -71,8 +71,9 @@
   margin-top: 10rpx;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;/*自动换行*/
-  justify-content: space-between;
+  flex-wrap: wrap;/*自动换行，但是wrap元素会在一行之内放置尽可能多的元素。
+  如果能放3本书，就不会放2本书在一个row上*/
+  justify-content: space-between;/*让元素两端分布*/
   padding: 0 90rpx 0 90rpx;
 }
 
