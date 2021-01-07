@@ -33,6 +33,7 @@ class BookModel extends HTTP{
       url:`book/${bid}/short_comment`
     })
   }
+  
 }
 
 export {BookModel}
