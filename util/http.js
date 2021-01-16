@@ -9,7 +9,7 @@ const tips = {
 }
 
 class HTTP {
-  
+
   //在类下面的我们通常不叫函数，而是叫方法
   request(params) {
     if (!params.method) {
@@ -48,6 +48,7 @@ class HTTP {
       error_code = 1;
     }
     wx.showToast({
+      
       title: tips[error_code],
       icon: 'none',
       duration: 2000
