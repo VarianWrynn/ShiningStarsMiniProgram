@@ -1,0 +1,822 @@
+[33mcommit ea0c1b2c5bde15a2a087b80a620b44328567f2aa[m[33m ([m[1;36mHEAD -> [m[1;32mLee/SSP1[m[33m, [m[1;31morigin/Lee/SSP1[m[33m)[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Jan 19 23:51:30 2021 +0800
+
+    Jan 19,2021
+
+[33mcommit be6c31dc021df5b67106af4d2c4d26c9c129962c[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sat Jan 16 22:11:09 2021 +0800
+
+    Jan 6,2021
+
+[33mcommit 124cf6bfe3819e60c8a384a48f7173a9e89aafce[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Fri Jan 15 23:18:03 2021 +0800
+
+    Jan 15,2021
+
+[33mcommit e2b62b5c4c6f3892761103b7c73b2cbd8ae50138[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Jan 13 23:22:50 2021 +0800
+
+    Jan 13 2021
+
+[33mcommit a5410f3e079e03a5b12541d2480da1cf02113371[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Jan 12 23:53:25 2021 +0800
+
+    Jan 12 2021
+
+[33mcommit 3e3b90c16ffcc9bfa6505954893749b3238db311[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Jan 11 22:24:56 2021 +0800
+
+    Jan 11, 2021
+
+[33mcommit 57ccdc88cbd01e7f13be617fed8ea8befc605b61[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Jan 10 23:15:23 2021 +0800
+
+    Jan 10,2021
+
+[33mcommit 7ae4af0925b2a42010811a5f620d241ef8fe1ceb[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sat Jan 9 23:44:53 2021 +0800
+
+    Jan 9, 2021
+
+[33mcommit 51badb572b468a8604dcc8f622d3929b291c6d50[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Fri Jan 8 23:29:35 2021 +0800
+
+    Jan 8,2021
+
+[33mcommit 2ab557d607d6eaa390e09220458490a58ecbaeb1[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu Jan 7 22:41:25 2021 +0800
+
+    Jan 7 ,2021
+
+[33mcommit e91648515186bffe6e2fa0269e17cad772752c1c[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Jan 6 23:29:28 2021 +0800
+
+    Jan 6 2021
+
+[33mcommit 694b0c27b42e7f1c2e082a5e7e5b307b93bcdd46[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Jan 5 23:16:28 2021 +0800
+
+    Jan 5, 2021
+
+[33mcommit b697ca88078d199917af6e4607441a5561c2b298[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Jan 4 23:31:37 2021 +0800
+
+    updated
+
+[33mcommit 6e2582845af77edf898a86771115fe36de0daffa[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Jan 3 23:24:39 2021 +0800
+
+    update
+
+[33mcommit 7d349d6d9562467efc04f227e6cece026cc27579[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sat Jan 2 23:56:08 2021 +0800
+
+    update
+
+[33mcommit e1e401260d707499f69f18722e0bf05ff0a27630[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Fri Jan 1 23:25:42 2021 +0800
+
+    Restarted Shining Stars program on 2010
+
+[33mcommit 8d7495bd7378a264fd2d7d6ecd1583a49f1e7b04[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: 4b53fcb 59fa2b8
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Dec 17 17:33:13 2020 +0800
+
+    Merge pull request #43 from VarianWrynn/SS202012
+    
+    This is the first commit since 6 months
+
+[33mcommit 59fa2b83ababdbb650e7cb00f8d4bd9fe97cbb01[m
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Dec 17 17:23:20 2020 +0800
+
+    This is the first commit since 6 months
+
+[33mcommit 4b53fcb35e0d404d5175dc8d715a98c93e38af6c[m
+Merge: dd48ad7 14f95f4
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed Jun 17 23:25:32 2020 +0800
+
+    Merge pull request #42 from VarianWrynn/Lee/SSP1
+    
+    coding for SS Mini prorgam
+
+[33mcommit 14f95f4769ac4a0e367ea0184cf4b98bb24ad784[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Jun 17 23:20:30 2020 +0800
+
+    coding for SS Mini prorgam
+
+[33mcommit dd48ad71fbf9298498438cb94e9a631749163499[m
+Merge: 5d32d9c 0a5eba2
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Tue Jun 16 22:53:00 2020 +0800
+
+    Merge pull request #41 from VarianWrynn/Lee/SSP1
+    
+    coding for SS Mini program
+
+[33mcommit 0a5eba25ef4a78d85c7f5f0c63ad42336b80a4ee[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Jun 16 22:52:00 2020 +0800
+
+    coding for SS Mini program
+
+[33mcommit 5d32d9ce53901c428d3823d178dfad639dc685d4[m
+Merge: 37b6e80 3ad97ab
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon Jun 15 22:45:31 2020 +0800
+
+    Merge pull request #40 from VarianWrynn/Lee/SSP1
+    
+    add readme notes
+
+[33mcommit 3ad97abef73a391f791d5031a656eb196b7846eb[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Jun 15 22:44:09 2020 +0800
+
+    add readme notes
+
+[33mcommit 37b6e807b01d726b95cf7c92c4e01caf2184eb53[m
+Merge: 5b84326 17760ba
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sat May 23 22:12:50 2020 +0800
+
+    Merge pull request #39 from VarianWrynn/Lee/SSP1
+    
+    coding for book detail
+
+[33mcommit 17760ba0a22bf7d2b54a3e2cd2707eed71b236f0[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sat May 23 22:09:40 2020 +0800
+
+    coding for book detail
+
+[33mcommit 5b843267c5392d9ccbbab5246559dfe5b544a562[m
+Merge: 0bade89 aa650b4
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon May 18 22:42:26 2020 +0800
+
+    Merge pull request #38 from VarianWrynn/Lee/SSP1
+    
+    coding for mini program
+
+[33mcommit aa650b4097f59f8cb47123d89a65d173307557d1[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon May 18 22:39:57 2020 +0800
+
+    coding for mini program
+
+[33mcommit 0bade8985d9519e0c3de2cd086010b281a565553[m
+Merge: 883107d 071ed80
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu May 7 22:40:16 2020 +0800
+
+    Merge pull request #37 from VarianWrynn/Lee/SSP1
+    
+    coding for book-details
+
+[33mcommit 071ed804adc78665ef443ef1565fcd62a1b62342[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu May 7 22:37:28 2020 +0800
+
+    coding for book-details
+
+[33mcommit 883107de7464dd02c63d3ebfa4ca544eaa4f7baa[m
+Merge: 6ea4e14 8507c18
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed May 6 22:09:32 2020 +0800
+
+    Merge pull request #36 from VarianWrynn/Lee/SSP1
+    
+    coding for books and book-detail
+
+[33mcommit 8507c189ea390b05f0f0ae193e4f67f1545ae600[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed May 6 22:05:19 2020 +0800
+
+    coding for books and book-detail
+
+[33mcommit 6ea4e147206f7e3e2deabc094935758ec04ba20a[m
+Merge: c06f568 a13d446
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed May 6 21:46:09 2020 +0800
+
+    Merge pull request #35 from VarianWrynn/Lee/SSP1
+    
+    coding for books
+
+[33mcommit a13d446f60b556c9b9b8f64f6ffee29ad60fd3b5[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed May 6 21:45:04 2020 +0800
+
+    coding for books
+
+[33mcommit c06f5683b9776ed03067b8ad520d43c3a05f1aa3[m
+Merge: 7c371b6 d81adaf
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Tue May 5 22:21:33 2020 +0800
+
+    Merge pull request #34 from VarianWrynn/Lee/SSP1
+    
+    coding for books
+
+[33mcommit d81adafb270aeb8c3935e81005c86d1ff1e389a7[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue May 5 22:17:57 2020 +0800
+
+    coding for books
+
+[33mcommit 7c371b632bdf9f6e75e56b5b056927ae4a586757[m
+Merge: f2ef520 f105fa7
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon May 4 23:00:53 2020 +0800
+
+    Merge pull request #33 from VarianWrynn/Lee/SSP1
+    
+    coding for books
+
+[33mcommit f105fa793278885a0f754ec33f1a66d2cc5a58a8[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon May 4 22:58:33 2020 +0800
+
+    coding for books
+
+[33mcommit f2ef520cf7afd15b1d9e733cfb3824f39d72781c[m
+Merge: 7aff9d1 2cd5597
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sat May 2 23:26:29 2020 +0800
+
+    Merge pull request #32 from VarianWrynn/Lee/SSP1
+    
+    coding:
+
+[33mcommit 2cd5597bc184f5dbd25b28392f74eb47ce134add[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sat May 2 23:24:55 2020 +0800
+
+    coding:
+    on May 2 ,2020
+
+[33mcommit 7aff9d1423431bd1eea5bd53279bb78bfa224d63[m
+Merge: c70245e 438bbf6
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Fri May 1 23:59:41 2020 +0800
+
+    Merge pull request #31 from VarianWrynn/Lee/SSP1
+    
+    coding for wechat mini program
+
+[33mcommit 438bbf6a5d30df6f92e9aa8289eabedf7b9d0869[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Fri May 1 23:52:10 2020 +0800
+
+    coding for wechat mini program
+
+[33mcommit c70245ef004e67e9b5d58efb295d87a64ff9d0d3[m
+Merge: b57e7d8 0005566
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Apr 30 22:52:02 2020 +0800
+
+    Merge pull request #30 from VarianWrynn/Lee/SSP1
+    
+    coding for promise
+
+[33mcommit 000556606f698bbe6ceba083e439da2825f49af4[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu Apr 30 22:50:36 2020 +0800
+
+    coding for promise
+
+[33mcommit b57e7d863f4447bc5d96b33a7cd1f225ea2c1b04[m
+Merge: 6bef90d 84579ae
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed Apr 29 19:44:03 2020 +0800
+
+    Merge pull request #29 from VarianWrynn/Lee/SSP1
+    
+    coding for Mini program
+
+[33mcommit 84579ae7b57eed3220724290efb9fa4358b138ae[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Apr 29 19:41:46 2020 +0800
+
+    coding for Mini program
+
+[33mcommit 6bef90d1fa236ecc4d8c3fcc2a806a5e6b98e111[m
+Merge: ee387e9 0c93ff6
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sun Apr 26 23:34:53 2020 +0800
+
+    Merge pull request #28 from VarianWrynn/Lee/SSP1
+    
+    123
+
+[33mcommit 0c93ff6f58278ed5829271c4f929f8e7e9f1e3e7[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Apr 26 23:33:49 2020 +0800
+
+    123
+
+[33mcommit ee387e983522332e1b105aaeda4cb5f127dc205a[m
+Merge: 26f55f0 dff01c6
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Apr 23 22:54:21 2020 +0800
+
+    Merge pull request #27 from VarianWrynn/Lee/SSP1
+    
+    update readme
+
+[33mcommit dff01c641e8886696ee3a5b03a01c1aa4daa160e[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu Apr 23 22:51:15 2020 +0800
+
+    update readme
+
+[33mcommit 26f55f01d79c67bafe90a3f2468000f9eb291235[m
+Merge: 5d49bc2 5415d2f
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed Apr 22 22:24:12 2020 +0800
+
+    Merge pull request #26 from VarianWrynn/Lee/SSP1
+    
+    coding for books and promise
+
+[33mcommit 5415d2f25332841135e0db785a1d5c7de880552d[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Apr 22 22:21:59 2020 +0800
+
+    coding for books and promise
+
+[33mcommit 5d49bc255013df72ba936f546b24836a239fed53[m
+Merge: 7851057 e9b2ccb
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Tue Apr 21 22:00:02 2020 +0800
+
+    Merge pull request #25 from VarianWrynn/Lee/SSP1
+    
+    Lee/ssp1
+
+[33mcommit e9b2ccb023ee4e19dc99cdbb626ca0c85b15eef2[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Apr 21 21:58:12 2020 +0800
+
+    coding for barTab
+
+[33mcommit 4b60f975b0cd68201c7326d8ee69ce06e45274db[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Apr 21 13:02:38 2020 +0800
+
+    debugger for music
+
+[33mcommit 7851057c8f696f1172198ee6728dc04b1d3f83e9[m
+Merge: f2bdd53 5f5cb7c
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon Apr 20 18:35:47 2020 +0800
+
+    Merge pull request #24 from VarianWrynn/work_at_office
+    
+    coding for music components
+
+[33mcommit 5f5cb7cae2aaa23a0002641cb16e350dd4385678[m
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon Apr 20 18:33:58 2020 +0800
+
+    coding for music components
+
+[33mcommit f2bdd53dd60b21c539b31d60f10db9d6c84211ad[m
+Merge: f689f45 7af855c
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon Apr 20 13:19:08 2020 +0800
+
+    Merge pull request #23 from VarianWrynn/Lee/SSP1
+    
+    coding for test
+
+[33mcommit 7af855c1e14080fdd38cb5e2871ae15ea9e894d6[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Apr 20 12:59:58 2020 +0800
+
+    coding for test
+
+[33mcommit f689f45ed60eedc4897f35e7d8142fb137213a28[m
+Merge: 252dae4 88295e9
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sun Apr 19 22:07:22 2020 +0800
+
+    Merge pull request #22 from VarianWrynn/Lee/SSP1
+    
+    coding for music
+
+[33mcommit 88295e9495ee07ea871d447177bb15823857932c[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Apr 19 22:03:54 2020 +0800
+
+    coding for music
+
+[33mcommit 252dae479b3957a632dd94c6ef3b47b9745e484f[m
+Merge: e77c5eb fc41b45
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Apr 16 22:55:35 2020 +0800
+
+    Merge pull request #21 from VarianWrynn/Lee/SSP1
+    
+    ajust for api
+
+[33mcommit fc41b45b92f222dffd681fcd53283d7ea6518890[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu Apr 16 22:47:40 2020 +0800
+
+    ajust for api
+
+[33mcommit e77c5eb27c5c1d8567de6cca31b983a75a520134[m
+Merge: 7feca50 4e65e6d
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed Apr 15 22:41:28 2020 +0800
+
+    Merge pull request #20 from VarianWrynn/Lee/SSP1
+    
+    coding for mini program
+
+[33mcommit 4e65e6d0a33d6883600de0905308b379377f1719[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Apr 15 22:36:50 2020 +0800
+
+    coding for mini program
+
+[33mcommit 7feca50ea15f907a2368931c83edd1e4e6597d68[m
+Merge: 75c191e e5c6855
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sun Apr 12 22:55:49 2020 +0800
+
+    Merge pull request #19 from VarianWrynn/Lee/SSP1
+    
+    coding for mini program
+
+[33mcommit e5c685588003691eb6716b2b8ec9d27208a3eb9a[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Apr 12 22:54:26 2020 +0800
+
+    coding for mini program
+
+[33mcommit 75c191e0ca914ea83ee583918320e2e23e95d6dc[m
+Merge: 3098b66 0615faf
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Apr 9 21:47:15 2020 +0800
+
+    Merge pull request #18 from VarianWrynn/Lee/SSP1
+    
+    Lee coding on 2020-4-9
+
+[33mcommit 0615faf9faec61de75be8ac29fa6b3f0f2edd690[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu Apr 9 21:34:37 2020 +0800
+
+    Lee coding on 2020-4-9
+
+[33mcommit 3098b6681018ec017dc6cd9c11576503dd5cdf96[m
+Merge: 79635b6 ba24ac9
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed Apr 8 22:30:19 2020 +0800
+
+    Merge pull request #17 from VarianWrynn/Lee/SSP1
+    
+    coding for Wechat mini program
+
+[33mcommit ba24ac95f851a862c933de790d9fe4f2a2b345de[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Apr 8 22:23:02 2020 +0800
+
+    coding for Wechat mini program
+
+[33mcommit 79635b6f76719b99e5bbf5ef2ba23a88a72ed04a[m
+Merge: 3410f4a 7627449
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Tue Apr 7 20:23:18 2020 +0800
+
+    Merge pull request #16 from VarianWrynn/Lee/SSP1
+    
+    next
+
+[33mcommit 76274492e90d5641724cbbeb23d804061a471f82[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Apr 7 20:21:47 2020 +0800
+
+    next
+
+[33mcommit 3410f4a32a2dfd4c20b1fb9754f420f59a8102e0[m
+Merge: ce5bfd4 2d359dd
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Tue Apr 7 13:01:43 2020 +0800
+
+    Merge pull request #15 from VarianWrynn/Lee/SSP1
+    
+    get previous debugger
+
+[33mcommit 2d359dd500d61f9ec9bb14050539a48436a17746[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Apr 7 12:59:04 2020 +0800
+
+    get previous debugger
+
+[33mcommit ce5bfd4be1a3ae50e5419c2bff5bef32e3e2b864[m
+Merge: d4c63d3 0d47653
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon Apr 6 08:28:03 2020 +0800
+
+    Merge pull request #14 from VarianWrynn/Lee/SSP1
+    
+    # deploying the environment for mini program
+
+[33mcommit 0d476536dc689131a95bd280b72b44d28e765da0[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Apr 6 08:26:08 2020 +0800
+
+    Lee
+
+[33mcommit d4c63d3c6a32f814080cad812cc5a4916a8cac95[m
+Merge: e4e4da2 398a106
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sun Apr 5 20:30:12 2020 +0800
+
+    Merge pull request #13 from VarianWrynn/Lee/SSP1
+    
+    coding for navigator
+
+[33mcommit 398a106edf03c8499b8af691be04ebbbfb3ee92d[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Apr 5 20:28:58 2020 +0800
+
+    coding for navigator
+
+[33mcommit e4e4da288c3e4383f10b5c8f294b69b01c5d31c5[m
+Merge: b373708 6ad495c
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sun Apr 5 04:03:40 2020 +0800
+
+    Merge pull request #12 from VarianWrynn/Lee/SSP1
+    
+    coding for first page of Mini program
+
+[33mcommit 6ad495cbbe82e1d5ca0240482963a0fbfaf091aa[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Apr 5 04:00:46 2020 +0800
+
+    coding for first page of Mini program
+
+[33mcommit b37370816d172d367b835ea1d1ffffc1dd00a826[m
+Merge: 09ce93a 29fb6a7
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sat Apr 4 20:39:38 2020 +0800
+
+    Merge pull request #11 from VarianWrynn/Lee/SSP1
+    
+    coding for Like model
+
+[33mcommit 29fb6a73e1dc2cbfcac40cf55e0a2c53e88b15ed[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sat Apr 4 20:37:29 2020 +0800
+
+    coding for Like model
+
+[33mcommit 09ce93a441487cfb1c915bd4fcf00b45c88118d5[m
+Merge: 551c863 54aa902
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Fri Apr 3 23:39:13 2020 +0800
+
+    Merge pull request #10 from VarianWrynn/Lee/SSP1
+    
+    coding for SS mini program
+
+[33mcommit 54aa902cfb82289b180c6c4a38ca32b161813244[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Fri Apr 3 23:33:13 2020 +0800
+
+    coding for SS mini program
+
+[33mcommit 551c863e4ab88927d2aecb1fba3769b4b78f9f0e[m
+Merge: cee9835 ded3390
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Apr 2 20:56:02 2020 +0800
+
+    Merge pull request #9 from VarianWrynn/Lee/SSP1
+    
+    Lee coding
+
+[33mcommit ded3390aa9d68d0289a142c36a02f167e92464e8[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu Apr 2 20:50:26 2020 +0800
+
+    Lee coding
+
+[33mcommit cee9835665957cea34130a6b01ca65f876fcc35e[m
+Merge: 0d39ab7 4b415b5
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed Apr 1 22:22:40 2020 +0800
+
+    Merge pull request #8 from VarianWrynn/Lee/SSP1
+    
+    coding for SS mini program
+
+[33mcommit 4b415b5d2b49007284b5e21c04dc2f618f71ebc8[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Apr 1 22:20:10 2020 +0800
+
+    coding for SS mini program
+
+[33mcommit 0d39ab7893b2fcd72d39b6a2d58d03b3e98a8a8e[m
+Merge: 58ef7e3 45fc4a8
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Tue Mar 31 23:06:36 2020 +0800
+
+    Merge pull request #7 from VarianWrynn/Lee/SSP1
+    
+    coding for Shining Stars mini program
+
+[33mcommit 45fc4a8eaff602e262e2a4e742b43225d30709c6[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Mar 31 23:04:54 2020 +0800
+
+    coding for Shining Stars mini program
+
+[33mcommit 58ef7e3045183f50f243f89aef2a1ce33d727f53[m
+Merge: 407fa2d 04ee3f4
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Mon Mar 30 22:32:53 2020 +0800
+
+    Merge pull request #6 from VarianWrynn/Lee/SSP1
+    
+    data bingding method for Mini program
+
+[33mcommit 04ee3f4332c14140321290a8f68da754bb43fc69[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Mar 30 22:29:55 2020 +0800
+
+    data bingding method for Mini program
+
+[33mcommit 407fa2d05db4d980cc01b7078607a507eae43f75[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Mar 30 18:50:29 2020 +0800
+
+    Add Table of Content for readme
+
+[33mcommit 346b676015b38700e70ea4c6a3fdfea12d6cfe47[m
+Merge: 7b61acd 39a3748
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sun Mar 29 23:13:41 2020 +0800
+
+    Merge pull request #5 from VarianWrynn/Lee/SSP1
+    
+    learning class, extend class and instance class
+
+[33mcommit 39a37489fa5e9dc46aa4adcb04efed0cfc7d226b[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Mar 29 23:11:16 2020 +0800
+
+    learning class, extend class and instance class
+
+[33mcommit 7b61acd7854c4d6dd97b4a056d65cc4ef9a5b428[m
+Merge: 640af63 eeb1ac3
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Sat Mar 28 22:46:07 2020 +0800
+
+    Merge pull request #4 from VarianWrynn/Lee/SSP1
+    
+    coding for ss mini program on March 28,2020
+
+[33mcommit eeb1ac3a2625bbdbcdbecf1d165524be1f764dea[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sat Mar 28 22:44:35 2020 +0800
+
+    coding for ss mini program on March 28,2020
+
+[33mcommit 640af63500771d67db7214491f5791f96e62b149[m
+Merge: ff279cc 548284f
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Fri Mar 27 23:35:53 2020 +0800
+
+    Merge pull request #3 from VarianWrynn/Lee/SSP1
+    
+    coding & debugging for JS module
+
+[33mcommit 548284fadb15d9fdb60990006af6e2afbd85374c[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Fri Mar 27 23:33:05 2020 +0800
+
+    coding & debugging for JS module
+
+[33mcommit ff279cc7a3f8979ee8f9337240f2783dddf05f31[m
+Merge: acd4306 37512a8
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Thu Mar 26 22:36:33 2020 +0800
+
+    Merge pull request #2 from VarianWrynn/Lee/SSP1
+    
+    coding for SS mini program on March 26,2020
+
+[33mcommit 37512a8cbc7d0251713b3c2181447d84edb52dea[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Thu Mar 26 22:30:28 2020 +0800
+
+    coding for SS mini program on March 26,2020
+
+[33mcommit acd43066e66ec853ae8ccd83d36b1425e5cfbba3[m
+Merge: 3f02afc 00bcee2
+Author: Lee.Wang <yuna1111@163.com>
+Date:   Wed Mar 25 21:48:28 2020 +0800
+
+    Merge pull request #1 from VarianWrynn/Lee/SSP1
+    
+    Swagger configuration for BG
+
+[33mcommit 00bcee2d48bca0827612e8b8b50a68b194747df5[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Mar 25 21:43:09 2020 +0800
+
+    Swagger configuration for BG
+
+[33mcommit 3f02afc6f1c131c41e1e291ade45004b2a57dd2b[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: e3c39e8 6d053a8
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Mar 25 19:39:18 2020 +0800
+
+    Merge branch 'Lee/SSP1'
+    This is the first time trying to merge a branch into master
+    2020-3-25 19:40:17
+
+[33mcommit 6d053a8ee5c649d9ed587f23dd74784f9f6ca737[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Mar 25 19:35:05 2020 +0800
+
+    trying to code on a branch
+
+[33mcommit e3c39e8e5e2b20c722c5ac8f32dcfbce62792bbf[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Wed Mar 25 13:01:24 2020 +0800
+
+    lambada for ES6
+
+[33mcommit 60b22a533d878c3a5bbbf064edf25b227a8263bc[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Tue Mar 24 23:04:41 2020 +0800
+
+    add bg project for SS mini program
+
+[33mcommit e323f9087187555d6a02cb69e2096d84244b8789[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Mon Mar 23 22:29:03 2020 +0800
+
+    coding for SS mini program on March 23, 2020
+
+[33mcommit 48218b9a3dd0185707ddf8d74c89a6bf1de14c76[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Mar 22 22:17:13 2020 +0800
+
+    coding for ShiningStars Mini program on March 3,2020
+
+[33mcommit 44a7ea8e81cf283805ec2f38f65b241eec7b7dae[m
+Author: VarianWrynn <yuna1111@163.com>
+Date:   Sun Mar 22 19:47:09 2020 +0800
+
+    progamming for mini program
+
+[33mcommit 4b911b52560e24c462e155c635b19ffff0276a2b[m
+Author: VarianWrynn <leewongnetwork@gmail.com>
+Date:   Sat Mar 21 23:58:39 2020 +0800
+
+    first version of Wechat mini program
+
+[33mcommit 604cea188ec079891509f2b5d64ed0758dcae78c[m
+Author: VarianWrynn <leewongnetwork@gmail.com>
+Date:   Sat Mar 21 21:38:58 2020 +0800
+
+    adjust some typo
+
+[33mcommit c4e8e2d7e20bee2f176075453551283ebb7f33c5[m
+Author: VarianWrynn <leewongnetwork@gmail.com>
+Date:   Fri Mar 20 23:31:05 2020 +0800
+
+    需求分析 for SS微信小程序
+
+[33mcommit 35a04b5b61a043f231be0ed47dc875f5bd8fb174[m
+Author: VarianWrynn <leewongnetwork@gmail.com>
+Date:   Fri Mar 20 22:47:22 2020 +0800
+
+    Initialization the new project of Wechat mini program for Fuzhou Shining Stars Toastmasters club

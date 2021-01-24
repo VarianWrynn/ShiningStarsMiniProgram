@@ -5,6 +5,7 @@ import {
 const tips = {
   1: '网络出现错误，请稍后再刷新',
   1005: 'appkey无效',
+
   3000: '期刊不存在'
 }
 
@@ -12,6 +13,7 @@ class HTTP {
 
   //在类下面的我们通常不叫函数，而是叫方法
   request(params) {
+    
     if (!params.method) {
       //如果调用方不传递method这默认赋于GET
       params.method = "GET"
