@@ -9,12 +9,15 @@ class ClassicModel extends HTTP{
     this.request({ 
       url: 'Classic',
       success: (res) => {
+        
         //res.image = config.api_base_url+ res.image;
+
         sCallback(res)//这里把传递进来的函数再（带上res）传递回去,所以叫【回调函数】
 
         this._setLatestIndex(res.index);
 
         let key= this._getKey(res.index);//每次请求最新一期的数据，则都往缓存里面塞
+
         wx.setStorageSync(key, res);
       }
     })
