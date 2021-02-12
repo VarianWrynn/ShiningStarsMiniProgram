@@ -2,9 +2,12 @@ import {
   classicBeh
 } from '../classic-beh.js'
 
-/* 获取全局唯一的背景音频管理器。 小程序切入后台，如果音频处于播放状态，可以继续播放。但是后台状态不能通过调用API操纵音频的播放状态。
+/* 获取全局唯一的背景音频管理器。 小程序切入后台，如果音频处于播放状态，可以继续播放。
+但是后台状态不能通过调用API操纵音频的播放状态。
 
-从微信客户端6.7.2版本开始，若需要在小程序切后台后继续播放音频，需要在 app.json 中配置 requiredBackgroundModes 属性。开发版和体验版上可以直接生效，正式版还需通过审核。 */
+从微信客户端6.7.2版本开始，若需要在小程序切后台后继续播放音频，
+需要在 app.json 中配置 requiredBackgroundModes 属性。
+开发版和体验版上可以直接生效，正式版还需通过审核。 */
 const mMgr = wx.getBackgroundAudioManager();
 
 Component({
@@ -19,7 +22,7 @@ Component({
   lifetimes: {
     attached: function (event) {
       // 在组件实例进入页面节点树时执行
-      //  this.method._recoverStatus();这种调用方式会报错
+      // this.method._recoverStatus();这种调用方式会报错
       //this.methods._recoverStatus();
 
       console.log("exe attached");
@@ -29,7 +32,8 @@ Component({
     detached: function (event) {
       // 在组件实例被从页面节点树移除时执行
 
-      /*设置当前页面消失的时候停止播放音乐,但是由于父页面使用是hidden属性来隐藏当前组件，因此是不会触发detached函数，但是如果设置为wx:if是可以触发该函数*/
+      /*设置当前页面消失的时候停止播放音乐,但是由于父页面使用是hidden属性来隐藏当前组件，
+      因此是不会触发detached函数，但是如果设置为wx:if是可以触发该函数*/
       //mMgr.stop()
       console.log("exe detached");
     },
@@ -68,7 +72,7 @@ Component({
     _recoverStatus: function () {
       console.log("exe _recoverStatus")
 
-      if(mMgr.paused){ //如果当前没有背景音乐,注意 不是 mMgr.pause,这个是一个方法
+      if(mMgr.paused){ //如果当前没有背景音乐，这音乐播放的状态是false,注意 不是 mMgr.pause,这个是一个方法
         this.setData({
           playing:false
         })
@@ -77,7 +81,8 @@ Component({
       console.log("mMgr.src= "+mMgr.src)
       console.log("properties.src= "+this.properties.src)
       if(mMgr.src == this.properties.src){ //当前播放的音乐就是Music组件所展示的音乐
-      
+        // mMgr.scr: 当前正在播放的音乐的地址
+        //this.properties.scr: 当前组件展示的音乐地址
         this.setData({
           playing:true
         })
