@@ -22,11 +22,10 @@ Component({
   lifetimes: {
     attached: function (event) {
       // 在组件实例进入页面节点树时执行
-      // this.method._recoverStatus();这种调用方式会报错
-      //this.methods._recoverStatus();
+     
 
       console.log("exe attached");
-      this._recoverStatus();
+      this._recoverStatus();  // this.method._recoverStatus();这种调用方式会报错
       this._monitorSwitch();
     },
     detached: function (event) {
@@ -89,6 +88,10 @@ Component({
       }
     },
 
+    /*同步微信小程序的总控开关和音乐组件之间的互动，譬如说，
+    当我们在中控开关上点击暂停之后，这音乐组件上的icon也要同步为暂停状态
+    Lee, Feb-12-2021
+    */
     _monitorSwitch:function(){
       /* onPlay函数执行一个回调函数，所以我们把一个匿名函数当做参数传递进去 */
       mMgr.onPlay(()=>{
@@ -99,7 +102,7 @@ Component({
         this._recoverStatus();
       });
 
-      mMgr.onStop(()=>{
+      mMgr.onStop(()=>{//直接在主控上关闭掉音乐播放器触发
         this._recoverStatus();
       });
 
