@@ -32,7 +32,7 @@ class ClassicModel extends HTTP{
       // url: 'Classic/' + index + '/' + nextOrPrevious,
       url: `Classic/${index}/${nextOrPrevious}`,
       success:(res=>{
-        wx.setStorageSync(this._getKey(res.index),res);
+        wx.setStorageSync(this._getKey(res.index),res);//把当前请求到的数据写入到缓存中
         sCallback(res);     
       })
     })

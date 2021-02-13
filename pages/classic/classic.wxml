@@ -7,7 +7,9 @@
   <tmc-movie hidden="{{classicData.type!=1}}" img="{{classicData.image}}" content="{{classicData.content}}" />
 
   <!-- <tmc-music hidden="{{classicData.type!=2}}" img="{{classicData.image}}" content="{{classicData.content}}" /> -->
-  
+  <!-- 切换音乐的时候需要监听当前组件是否发生了变化，该监听需要在attached函数里面执行 而-->
+  <!-- 只有wx:if才能出发attached声明周期函数 ,这也是为什么hidden的性能比wx:if高的原因： -->
+  <!-- 因为wx:if每次都需要执行一次完整的生命周期函数 -->
   <tmc-music wx:if="{{classicData.type==2}}" src="https://localhost:5001/media/Lee.m4a" img="{{classicData.image}}" content="{{classicData.content}}" />
   <tmc-essay hidden="{{classicData.type!=3}}" img="{{classicData.image}}" content="{{classicData.content}}" />
   <tmc-nav bind:left="onNext" bind:right="onPrevious" class="nav" title="{{classicData.title}}" first="{{first}}" latest="{{latest}}" />

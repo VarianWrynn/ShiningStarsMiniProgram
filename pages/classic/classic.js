@@ -30,6 +30,8 @@ Page({
       // this._getLikeStatus(res.id,res.type);like和count已经在回调函数中存在了，这里不需要掉这个请求，能少发送一个请求就少向服务器发送一个请求。
       //console.log(res[0].temperatureC);
       this.setData({ //通过setData做【数据绑定】
+        // ...res 通过3个点达到对res内容的拓展，这就是拓展运算符，在wxml页面访问该变量就不需要以
+        // classicData.image 形式访问，而是可以直接image来访问其内部成员, 扩展运算符是ES6新特性
         classicData: res,
         likeCount:res.fav_nums,
         likeStatus:res.like_status
