@@ -12,7 +12,7 @@ const tips = {
 class HTTP {
   //request(url,data={},method='GET'){
     request({url,data={},method='GET'}){ //这种传递方式在ES里面叫 【解构】，ES里有对象解构，数组解构等。这种好处是参数既是一个对象，同时对象里面又标明了参数的顺序与类型，方便后期代码维护
-   return new Promise((resolve, reject)=>{
+    return new Promise((resolve, reject)=>{
       this._request(url,resolve,reject,data,method);
       
     })
