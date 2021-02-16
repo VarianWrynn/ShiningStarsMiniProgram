@@ -25,7 +25,7 @@ Page({
     const comments = bookModel.getComments(bid);
     const likeStatus = bookModel.getLikeStatus(bid);
 
-    detail.then(res=>{
+    detail.then(res=>{ //使用promise把从server取到的结果赋给data{}的下的数据
       this.setData({
         book:res
       })
