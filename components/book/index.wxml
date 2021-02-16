@@ -1,4 +1,5 @@
 <view bind:tap="onTap" class="container">
+	<!-- onTap点击事件是用来监听并获取当前的书籍id，再把id传递给book-detaile页面 -->
 	<image src="{{book.image}}"></image>
 	<view class="description">
 		<text class="title">{{book.title}}</text>

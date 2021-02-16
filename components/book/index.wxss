@@ -9,7 +9,7 @@
 }
 
 .container image{
-  width: 100%;
+  width: 100%;/*因为图片是充满整个容器的，所以宽高设置为100%*/
   height: 100%;
   border-radius: 2px;
 }
@@ -17,7 +17,7 @@
 .description{
   /*width: 100%;*/
   width: 216rpx;/*如果设置为100%，那么【喜欢】会跑到边框之外，因为喜欢的位置= width(240prx) + 内边距(Padding)，因此是 240-10-15=215，但是width最好不要是奇数，因此是216*/
-  position: absolute; /*相对于Conatiner容器的绝对位置；如果container的Position不是设置为relative,则这里会相对于整个页面而不是container； 实现Description覆盖在图片上方（位置重叠）*/
+  position: absolute; /*相对于Conatiner容器的绝对位置；如果container的Position不是设置为relative,则这里会相对于整个页面而不是container； 实现Description覆盖在图片上方（位置重叠）【12-上】*/
   bottom: 0;/*没有间距，这样子就实现Description重叠在最底部*/
   background-color: #fff;
   padding: 5rpx 10rpx 8rpx 15rpx;
