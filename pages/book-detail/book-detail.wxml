@@ -6,5 +6,8 @@
   </view>
   <view class="sub-container">
     <text class="headline">短评</text>
+    <block wx:for="{{comments.comments}}">
+      <tmc-tag text="{{item.content}}" />
+    </block>
   </view>
 </view>
