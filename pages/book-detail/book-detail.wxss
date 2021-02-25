@@ -50,10 +50,10 @@
 
 .comment-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: row;/*row布局是为了每个短评之间的margin-botton能生效*/
   justify-content: flex-start;
   width: 100%;
-  flex-wrap: wrap;
+  flex-wrap: wrap;/*默认情况下，row布局是不会自动换行的，要让整个row会发生换行，这需要指定wrap属性*/
   padding: 0 30rpx;
   /* z-index: 999; */
 }
@@ -81,6 +81,11 @@
   color: #2f2f2f;
   /* margin-top:30rpx; */
   margin-bottom: 20rpx;
+}
+
+.comment-container tmc-tag{
+  margin-right: 15rpx;
+  margin-bottom: 10rpx;
 }
 
 .post-container {
