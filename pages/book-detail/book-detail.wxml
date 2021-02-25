@@ -6,8 +6,12 @@
   </view>
   <view class="sub-container">
     <text class="headline">短评</text>
-    <block wx:for="{{comments.comments}}" wx:key="">
-      <tmc-tag text="{{item.content}}" />
-    </block>
+    <view class="comment-container">
+      <block wx:for="{{comments}}" wx:key="comment">
+        <tmc-tag text="{{item.comment}}">
+          <text class="num" slot="after">{{'+'+item.agree_num}}</text>
+        </tmc-tag>
+      </block>
+    </view>
   </view>
 </view>
