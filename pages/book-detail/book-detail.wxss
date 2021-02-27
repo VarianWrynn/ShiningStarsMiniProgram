@@ -194,11 +194,11 @@
   color: #aaa;
 }
 
-.comment-container > tag-cmp:first-child view {
+.comment-container > tmc-tag:first-child view {
   background-color: #fffbdd;
 }
 
-/* .comment-container > tag-cmp:nth-child(2) view{
+/* .comment-container > tmc-tag:nth-child(2) view{
    background-color: #eefbff;
 } */
 
