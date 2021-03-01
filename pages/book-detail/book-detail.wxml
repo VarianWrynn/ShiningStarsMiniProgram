@@ -1,9 +1,12 @@
+<wxs src="../../util/filter.wxs" module="until" />
+
 <view class="container">
   <view class="head">
     <image src="{{book.image}}"></image>
     <text class="title">{{book.title}}</text>
     <text class="author">{{book.author}}</text>
   </view>
+
   <view class="sub-container">
     <text class="headline">短评</text>
     <view class="comment-container">
@@ -14,4 +17,9 @@
       </block>
     </view>
   </view>
+
+<view class="sub-container">
+  <text class="headline">内容简介</text>
+  <text class="content">{{until.format}}</text>
+</view>
 </view>

@@ -1,3 +1,18 @@
-const format =function(text){
-  
+
+//const format =function(text){
+//const 是js ES6中的标准语法，但是wxs虽然语法上和js很类似，但是其实本身并不是js
+// wxs有自己的独立运行环境，除了语法和js相似，其他都不同，这两者根本就是不同的语言
+/** 
+ * 官方说法IOS设备上，wxs会比js代码块 2~20倍，在android上并无太大差异；
+ * **/
+
+
+var format =function(text){
+  return 'this is Lee\'s testing '
+}
+
+
+
+module.exports={
+  format:format
 }
