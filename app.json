@@ -3,8 +3,7 @@
     "pages/classic/classic",
     "pages/book/book",
     "pages/my/my",
-    "pages/book-detail/book-detail",
-    "util/filter.wxs"
+    "pages/book-detail/book-detail"
   ],
   "requiredBackgroundModes": [
     "audio"
