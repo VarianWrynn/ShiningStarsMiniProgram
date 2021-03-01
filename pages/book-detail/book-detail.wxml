@@ -1,4 +1,4 @@
-<wxs src="../../util/filter.wxs" module="until" />
+<wxs src="../../util/filter.wxs" module="util" />
 
 <view class="container">
   <view class="head">
@@ -20,6 +20,6 @@
 
 <view class="sub-container">
   <text class="headline">内容简介</text>
-  <text class="content">{{until.format}}</text>
+  <text class="content">{{util.format("Leee")}}</text>
 </view>
 </view>
