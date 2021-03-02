@@ -8,7 +8,9 @@
 
 
 var format =function(text){
-  return 'this is Lee\'s testing '
+  var reg =getRegExp('\\\\n','g');//原文中是两个反斜杠 \\n,所以正则匹配是在每个反斜杠之前再加一个反斜杠
+  return text.replace(reg,'\n');
+  //return 'this is Lee\'s testing '
 }
 
 
