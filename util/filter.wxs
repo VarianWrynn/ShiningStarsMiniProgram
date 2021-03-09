@@ -17,7 +17,6 @@ var format =function(text){
 }
 
 
-
 module.exports={
   format:format
 }
