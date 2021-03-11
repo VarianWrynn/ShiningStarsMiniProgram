@@ -213,7 +213,8 @@
 }
 
 .ex-tag1 {
-	background-color: #fffbdd !important;
+  background-color: #fffbdd !important;
+  
 }
 
 .ex-tag2 {
