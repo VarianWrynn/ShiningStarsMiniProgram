@@ -15,6 +15,7 @@
           <text class="num" slot="after">{{'+'+item.agree_num}}</text>
         </tmc-tag>
       </block>
+      
     </view>
     
   </view>
