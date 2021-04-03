@@ -3,6 +3,7 @@
 <view class="container">
   <view class="head">
     <image src="{{book.image}}"></image>
+    
     <text class="title">{{book.title}}</text>
     <text class="author">{{book.author}}</text>
   </view>
