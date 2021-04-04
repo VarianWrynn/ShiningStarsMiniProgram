@@ -20,12 +20,10 @@
       </block>
       
     </view>
-    
   </view>
 
 <view class="sub-container">
   <text class="headline">内容简介</text>
   <text class="content">{{util.format(book.summary)}}</text>
-  
 </view>
 </view>
