@@ -1,5 +1,6 @@
 {
   "usingComponents": {
     "tmc-tag":"/components/tag/index"
+    
   }
 }
