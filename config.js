@@ -5,7 +5,6 @@ const config = {
   
   //api_base_url:"https://www.tmclee.com/"
   
-  
   api_base_url: "https://localhost:9527/"
 }
 
